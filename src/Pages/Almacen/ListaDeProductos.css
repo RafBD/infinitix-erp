@@ -1,0 +1,44 @@
+
+.ListaDeProductos h2 {
+    animation: slideInDown 1s;
+    letter-spacing: 5px;
+    font-size: 2.2rem;
+    color: #385546;  
+}
+
+.barra{
+    animation: slideInDown 1s;
+    width: 100%;
+}
+
+.botones{
+    animation: slideInDown 1s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}
+
+.botones Button{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    
+}
+
+.botones .icon-button{
+    font-size: 1.5rem;
+}
+
+.ListaDeProductos hr {
+    animation: slideInDown 1s;
+    border: none;
+    border-top: 0.2rem solid #ACC2EF;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.tabla{
+    animation: slideInDown 1s;
+}

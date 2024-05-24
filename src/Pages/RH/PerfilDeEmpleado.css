@@ -1,0 +1,19 @@
+th {
+    align-content: center;
+}
+
+.documentation-icon{
+    font-size: 1.2rem;
+    color: #11A2C2;
+    cursor: pointer;
+    text-align: center;
+}
+
+.documentation-btn:hover {
+    background: #467c8a !important;
+    color: white !important;
+
+    .documentation-icon {
+        color: white;
+    }
+}

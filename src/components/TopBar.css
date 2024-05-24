@@ -1,0 +1,37 @@
+.Topbar {
+    background: #343d5d;
+    color: #ffffff;
+  }
+  
+  .Topbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .Topbar .navbar-toggler-icon {
+    background-image: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .Topbar .bi {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .Topbar .dropdown-menu {
+    background-color: #343d5d; 
+  }
+  
+  .Topbar .dropdown-item {
+    color: #ffffff; 
+  }
+  
+  .Topbar .dropdown-divider {
+    border-top-color: #ffffff; 
+  }
+
+  .notificaciones-link:hover {
+    color: black !important;
+  }

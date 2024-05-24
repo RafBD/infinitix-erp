@@ -1,0 +1,55 @@
+.Sidebar{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(../components/Assets/img/mountain-bg.webp) center / cover no-repeat;
+    width: 20rem;
+    ul{
+      list-style: none;
+      padding: 0.5rem 1rem;
+      li{
+        margin-bottom: 1rem;
+        a{
+          text-decoration: none;
+          &:hover {
+            background-color: #385546;
+          }
+          &.active{
+            background-color: #385546;
+            position: relative;
+            &::before{
+              content: "";
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .Sidebar ul ul {
+    display: none;
+  }
+  
+  .Sidebar li:active ul {
+    display: block;
+  }
+  
+  .Sidebar {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  
+    .logo-div{
+      a {
+        margin-left: 10px;
+      }
+    }
+  }

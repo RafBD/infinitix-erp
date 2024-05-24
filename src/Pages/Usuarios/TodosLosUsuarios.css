@@ -1,0 +1,88 @@
+.tablaUsuarios {
+    margin: 0 auto;
+    animation: fadeIn 1s;
+  }
+  
+  .tablaUsuarios h2 {
+    animation: slideInDown 1s;
+    letter-spacing: 5px;
+    font-size: 2.2rem;
+    color: #385546;
+  }
+  
+  .tablaUsuarios hr {
+    animation: slideInDown 1s;
+    margin: 1rem 0;
+    width: auto;
+  }
+  
+  table {
+    animation: slideInDown 1s;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead {
+    letter-spacing: .5px;
+    text-align: center;
+  }
+  
+  tbody {
+    text-align: center;
+  }
+  
+  td {
+    vertical-align: middle;
+  }
+
+  .activo, .inactivo, .vacaciones {
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem;
+    border-radius: 10px;
+  }
+  
+  .activo {
+    color: white;
+    background-color: #527763;
+  }
+
+  .inactivo {
+    color: white;
+    background-color: #c94d55;
+  }
+  
+  .vacaciones {
+    color: white;
+    background-color: #c28348;
+  }
+  .edit-icon, .trash-icon {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+
+  .editar:hover {
+    background-color: #c28348 !important;
+  }
+
+  .trash:hover {
+    background-color: #c94d55 !important;
+  }
+  
+  /* Media query for tablets and mobile devices */
+  @media screen and (max-width: 768px) {
+    .NuevoUsuario {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+  
+    .NuevoUsuario h2 {
+      font-size: 1.5rem;
+    }
+  
+    .NuevoUsuario hr {
+      margin: 0.5rem 0;
+    }
+  }  
